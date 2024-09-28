@@ -1,0 +1,28 @@
+@import "../../assets/colors.css";
+
+.navbar {
+    margin: 0%;
+    margin-bottom: 3px;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between; /* To space out BrandLogo and Logout button */
+    align-items: center;
+    padding: 0.1rem 0 0.2rem 0.2rem;
+    background-color: var(--main-dark-color); /* Dark color for the navbar */
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: var(--main-light-color);
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-right: 18px;
+}
+
+.logout-button:hover {
+    color: var(--tertiary-light-color); /* Change to a highlight color on hover */
+}
